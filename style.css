@@ -1,0 +1,64 @@
+body {
+	cursor: default;
+}
+
+.jumbotron {
+	height: 282px;
+	color: white;
+	background: url('img/freedigitalphotos.net-1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron h1 {
+	margin: 50px 20px;
+}
+
+.jumbotron a {
+
+	color: white;
+}
+
+.banner {
+	color: white;
+	background-color: #333;
+	text-align: center;
+	padding: 1.5em 0;
+}
+
+.banner h1 {
+	font-size: 1em;
+}
+
+a, a:hover {
+	text-decoration: none;
+}
+
+.btn {
+	border-radius: 3px;
+	background-color: #88d6ff;
+	color: white;
+}
+
+.btn:hover {
+	background-color: #5bc0f6;
+	color: white;
+	transition: background-color .5s;
+}
+
+.section ul {
+	list-style: none;
+}
+
+.section li {
+	margin-top: .5em;
+}
+
+.section {
+	padding: 50px 0px;
+}
+
+.footer {
+	background-color: #ddd;
+	padding: 30px 10px;
+}

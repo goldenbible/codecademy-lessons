@@ -1,0 +1,57 @@
+html, body {
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: url('https://goo.gl/rWbqjF') no-repeat fixed;
+  background-size: cover;
+}
+
+.header .container {
+  border-bottom: 1px solid white;
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.header img {
+  width: 50px;
+}
+
+.container {
+  max-width: 940px;
+}
+
+.form-group input {
+  width: 50%;
+}
+
+.btn {
+  border: 0px;
+  background-color: rgba(23, 77, 58, .5);
+  border-radius: 0px;
+  padding: 10px;
+  color: white;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.main .col-md-12 {
+  padding: 50px 0px;
+}
+
+.footer .container {
+  border-top: 1px solid white;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer li {
+  display: inline;
+  margin-right: 10px;
+}

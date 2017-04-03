@@ -1,0 +1,91 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.main {
+  
+  position: relative;
+  color: white;
+}
+
+div {
+	text-align: center;
+}
+
+.main video {
+  width: 100%;
+}
+
+.main .content {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.main h1 {
+  font-size: 50px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+
+.btn {
+  background-color: #4386fc;
+  color: white;
+  border-radius: 0px;
+  padding: 15px 25px;
+}
+
+.supporting {
+  margin-top: 100px;
+  margin-bottom: 130px;
+}
+
+.supporting h2 {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.supporting p {
+  color: #333;
+  font-size: 21px;
+  font-weight: 300;
+  padding: 0 30px;
+}
+
+.feature {
+  height: 500px;
+  background: url('https://goo.gl/LfUYBN');
+  background-size: cover;
+}
+
+.footer {
+  padding: 30px;
+  background-color: #eee;
+}
+
+.footer p {
+  text-align: left;
+  font-size: 0.6em;
+}
+
+@media (max-width: 960px) {
+  .main {
+    height: 540px; 
+  }
+  .main video {
+    height: 540px; 
+    width: 960px;
+  }
+  .main h1 {
+    font-size: 32px;
+  }
+}

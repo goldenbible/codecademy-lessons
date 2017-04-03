@@ -1,0 +1,18 @@
+img {
+	width:100px;
+	height:100px;
+}
+
+img.long {
+	width:300px;
+	height: auto;
+}
+
+
+table, td {
+	border: 1px #70b8ff dashed;
+}
+
+td {
+    text-align: center;
+}

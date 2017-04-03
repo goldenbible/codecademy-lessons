@@ -1,0 +1,164 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1, h2, a {
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif; 
+}
+
+.container {
+  width: 940px;
+  margin: 0px auto;
+}
+
+/* Main */
+.main {
+  margin: 0px;
+  padding: 0px;
+  height: 700px;
+  background: url('https://goo.gl/zcaJhr');
+  background-size: cover;
+  text-align: center;
+}
+
+.main h1 {
+  font-size: 150px;
+  color: white;
+  margin: 5px;
+}
+
+.main p {
+  font-size: 18px;
+  color: white;
+  margin: 25px;
+}
+
+.main .container {
+  padding: 120px;
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+  background-color: #3a3a3a;
+  color: white;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #e69801;
+}
+
+/* Supporting */
+.supporting {
+  text-align: center;
+  padding: 50px 0 80px;
+  background-color: #1c1c1c;
+}
+
+.supporting .col {
+  float: left;
+  width: 28%;
+  padding: 10px;
+}
+
+.supporting h1,
+.supporting h2 {
+  color: #ffa800;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.supporting p {
+  color: #efefef;
+  margin-bottom: 20px;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.supporting .btn {
+  background-color: #eee;
+  color: #1c1c1c;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Feature */
+.feature {
+  height: 600px;
+  background: url('https://goo.gl/QibT5v');
+  background-size: cover;
+}
+
+.feature .container {
+  padding-top: 300px;
+}
+
+.feature h1,
+.feature h2 {
+  color: #fff;
+  font-size: 63px;
+  margin-left: 200px;
+}
+
+/* Footer */
+.footer {
+  height: 600px;
+  background: url('https://goo.gl/1VOYG3');
+  background-size: cover;
+  padding-top: 300px;
+  padding-left: 200px;
+}
+
+.footer .container {
+  text-align: center;
+}
+
+.footer h1,
+.footer h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  padding:50px 0 0;
+}
+
+.footer p {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+
+@media (min-width:600px) {
+  .main h1 {
+    font-size: 200px;
+  }
+
+  .supporting .col {
+    width: 30%;
+  }
+
+  .supporting h2 {
+    font-size: 40px;
+  }
+
+  .supporting p {
+    font-size: 14px;
+  }
+
+  .feature h2 {
+    font-size: 60px;
+  }
+}

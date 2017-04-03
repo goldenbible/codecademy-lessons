@@ -1,0 +1,102 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+  background: url('https://goo.gl/AUIlpX') no-repeat center fixed;
+  background-size: cover;
+}
+
+.container {
+  max-width:940px;
+}
+
+
+/* Header */
+.header {
+  padding: 10px 0;
+  background: rgba(0,0,0,0.5);
+  height: 70px;
+}
+
+.header a {
+  color: white;
+}
+
+.header a:hover {
+  cursor: pointer;
+  color: #00ffbc;
+}
+
+.header li {
+  padding: 10px;
+}
+
+.header li: hover {
+  border-bottom: 1px solid #00ffbc;
+}
+
+.header img {
+  margin: 10px;
+  width: 35px;
+}
+
+.header ul {
+  margin-top: -35px;
+  list-style: none;
+}
+
+.header li {
+  color: white;
+  margin-left: 30px;
+  display: inline;
+}
+
+/* Jumbotron */
+.jumbotron {
+  position: relative;
+  top: 50px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  background: rgba(0,0,0,0);
+}
+
+.jumbotron h1 {
+  text-align: center;
+  color: white;
+}
+
+
+
+/* Supporting */
+.supporting {
+  margin-top: 40px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  color: white;
+}
+
+.supporting .col-md-4 img {
+  width: 125px;
+}
+
+.supporting .col-md-4 {
+  text-align: center;
+}
+
+/* Section */
+
+.section {
+  text-align: center;
+}
+
+.section a {
+  background-color: rgba(0,255,188,0.5);
+  color: white;
+  font-size: 21px;
+  padding: 5px 60px;
+  margin: 150px 0px 100px 0px;
+}
+
+.section a:hover {
+  background-color: #333;
+  color: white;
+  opacity: .6;
+}

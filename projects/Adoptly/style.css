@@ -1,0 +1,97 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0px auto;
+}
+
+.header {
+  
+  background-color: #30627e;
+  padding: 0px;
+  margin: 0px;
+}
+
+.header .container {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+.header ul {
+  margin: 0px;
+}
+
+.header li {
+  font-size: 30px;
+  background-color: #30627e;
+  color: white;
+  display: inline-block;
+  margin: 0px;
+  padding: 20px;
+}
+
+.header li.active {
+  background-color: #e52364;
+}
+
+.jumbotron {
+  background: url('https://goo.gl/9zccNs');
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  
+  font-weight: bold;
+  color: #e52364;
+}
+
+.supporting .col-md-4 {
+  text-align: center;
+}
+
+.supporting
+
+.btn {
+  border: 1px solid #30627e;
+  color: #30627e;
+  padding: 10px 70px;
+  border-radius: 0px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 500px) {
+  ul li {
+    width: 100%;
+  }
+}
+
+.footer {
+  background-color: #e52364;
+  color: white;
+  padding: 30px 0px;
+}
+
+.footer .col-md-6 {
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.footer a {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.footer a:hover {
+  background-color: #ddd;
+}
